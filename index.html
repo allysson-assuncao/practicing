@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prime Number</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<main>
+    <section class="content">
+        <div class="content__text">
+            <h1 class="content__text__header">Is this number prime?</h1>
+            <p class="content__text__paragraph">Type the number:</p>
+        </div>
+        <input class="content__input" type="number" min="0">
+        <div class="content__buttons">
+            <button id="verify-prime" onclick="verifyPrime()">Check</button>
+            <button id="list-divisors" onclick="listDivisors()">List Divisors</button>
+        </div>
+        <div class="content__result">
+            <textarea id="divisors-list"></textarea>
+        </div>
+    </section>
+    <section class="decoration">
+
+    </section>
+</main>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
